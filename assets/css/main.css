@@ -286,7 +286,7 @@ i {
 }
 
 p {
-	margin: 0 0 2em 0;
+	margin: 0 0 .5em 0;
 }
 
 p.content {
@@ -2506,6 +2506,12 @@ input[type="radio"]:focus+label:before {
 	max-width: 40%;
 }
 
+.logo{
+	height: 1em;
+	vertical-align: middle;
+	margin-right: 0.4em;
+}
+
 .image.left img,
 .image.right img {
 	width: 100%;
@@ -2767,7 +2773,7 @@ article.special {
 }
 
 header.major {
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 
 header.major h2 {
@@ -3217,6 +3223,9 @@ table.alt tbody tr td {
 
 #header h1 {
 	margin: 0 0 0.25em 0;
+	text-align: left;
+	margin-left: 0;
+	margin-right: auto;
 }
 
 #header p {
@@ -3226,10 +3235,16 @@ table.alt tbody tr td {
 
 #header.alt {
 	padding: 7em 5em 4em 0;
+	text-align: left;
+	margin-left: 0;
+	margin-right: auto;
 }
 
 #header.alt h1 {
 	font-size: 3.25em;
+	text-align: left;
+	margin-left: 0;
+	margin-right: auto;
 }
 
 #header.alt>* {
@@ -3266,11 +3281,11 @@ table.alt tbody tr td {
 @media screen and (max-width: 1280px) {
 
 	#header {
-		padding: 4em 4em 0.1em 4em;
+		padding: 4em 4em 0.1em 0em;
 	}
 
 	#header.alt {
-		padding: 6em 4em 3em 4em;
+		padding: 6em 4em 3em 0;
 		margin-left: 0;
 		margin-right: auto;
 	}
@@ -3280,11 +3295,11 @@ table.alt tbody tr td {
 @media screen and (max-width: 980px) {
 
 	#header {
-		padding: 4em 3em 0.1em 3em;
+		padding: 4em 3em 0.1em 0;
 	}
 
 	#header.alt {
-		padding: 5em 3em 2em 3em;
+		padding: 5em 3em 2em 0;
 	}
 
 }
@@ -3292,7 +3307,7 @@ table.alt tbody tr td {
 @media screen and (max-width: 736px) {
 
 	#header {
-		padding: 3em 2em 0.1em 2em;
+		padding: 3em 2em 0.1em 0;
 	}
 
 	#header p {
@@ -3305,7 +3320,7 @@ table.alt tbody tr td {
 	}
 
 	#header.alt {
-		padding: 4em 2em 1em 2em;
+		padding: 4em 2em 1em 0;
 	}
 
 	#header.alt h1 {
@@ -3317,11 +3332,11 @@ table.alt tbody tr td {
 @media screen and (max-width: 480px) {
 
 	#header {
-		padding: 3em 1.5em 0.1em 1.5em;
+		padding: 3em 1.5em 0.1em 0;
 	}
 
 	#header.alt {
-		padding: 4em 1.5em 1em 1.5em;
+		padding: 4em 1.5em 1em 0;
 	}
 
 }
@@ -3329,11 +3344,11 @@ table.alt tbody tr td {
 @media screen and (max-width: 360px) {
 
 	#header {
-		padding: 2.5em 1em 0.1em 1em;
+		padding: 2.5em 1em 0.1em 0;
 	}
 
 	#header.alt {
-		padding: 3.5em 1em 0.5em 1em;
+		padding: 3.5em 1em 0.5em 0;
 	}
 
 }
