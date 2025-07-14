@@ -1970,10 +1970,10 @@ button,
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 300;
-	height: 2.75em;
-	line-height: 2.75em;
-	min-width: 9.25em;
-	padding: 0 1.5em;
+	height: 1.75em;
+	line-height: 1.75em;
+	/* min-width: 9.25em; */
+	padding: 0 .5em;
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
@@ -2490,8 +2490,8 @@ input[type="radio"]:focus+label:before {
 /* Image */
 
 .image {
-	border-radius: 8px;
-	border: 0;
+	border-radius: 3px;
+	border: 1px;
 	display: inline-block;
 	position: relative;
 }
@@ -3146,12 +3146,12 @@ table.alt tbody tr td {
 	margin-left: 4em;
 	padding: 0.65em;
 	border-radius: 100%;
-	border: solid 1px;
+	/* border: solid 1px; */
 }
 
 .spotlight .image img {
 	display: block;
-	border-radius: 100%;
+	/* border-radius: 100%; */
 	width: 16em;
 }
 
